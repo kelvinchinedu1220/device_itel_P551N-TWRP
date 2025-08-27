@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/LH7n
+DEVICE_PATH := device/itel/P661N
 
-# Inherit from mt6789-common
-include device/transsion/mt6789-common/BoardConfigCommon.mk
+# Inherit from mt6833-common
+include device/transsion/mt6833-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Tecno-LH7n
+TARGET_OTA_ASSERT_DEVICE := Itel-P661N
 
 # TWRP Configs
-TW_DEVICE_VERSION := LH7n_by_rama982_sora1504
+TW_DEVICE_VERSION := by_kelvin
