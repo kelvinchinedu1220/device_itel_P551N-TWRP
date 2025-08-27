@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/itel/P661N
+DEVICE_PATH := device/itel/P661n
 
 # Architecture
 TARGET_ARCH := arm64
