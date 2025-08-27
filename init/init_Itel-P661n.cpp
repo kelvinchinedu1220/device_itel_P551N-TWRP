@@ -31,6 +31,6 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("marketname"), "Itel P55 5g");
         property_override(string("ro.product.system.") + prop + string("device"), "Itel P55 5g");
     }
-    property_override("ro.bootimage.build.date.utc", "1609430400");
-    property_override("ro.build.date.utc", "1609430400");
+    property_override("ro.bootimage.build.date.utc", "1744131335");
+    property_override("ro.build.date.utc", "1744131335");
 }
