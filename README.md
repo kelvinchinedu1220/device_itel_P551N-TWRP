@@ -1,1 +1,1 @@
-Device config for Tecno Pova 5 (LH7n)
+Device config for Itel P55 5G CODENAME= P661N
