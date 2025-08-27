@@ -25,9 +25,9 @@ void vendor_load_properties()
     for (const string &prop : prop_partitions)
     {
         property_override(string("ro.product.") + prop + string("brand"), "ITEL");
-        property_override(string("ro.product.") + prop + string("name"), "P661n-GL");
-        property_override(string("ro.product.") + prop + string("device"), "Itel_P661n");
-        property_override(string("ro.product.") + prop + string("model"), "Itel P661n");
+        property_override(string("ro.product.") + prop + string("name"), "P661N-GL");
+        property_override(string("ro.product.") + prop + string("device"), "Itel_P661N");
+        property_override(string("ro.product.") + prop + string("model"), "Itel P661N");
         property_override(string("ro.product.") + prop + string("marketname"), "Itel P55 5g");
         property_override(string("ro.product.system.") + prop + string("device"), "Itel P55 5g");
     }
