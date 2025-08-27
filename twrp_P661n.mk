@@ -4,17 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from LH7n device
-$(call inherit-product, device/tecno/LH7n/device.mk)
+# Inherit from P661n device
+$(call inherit-product, device/itel/P661n/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := twrp_LH7n
-PRODUCT_DEVICE := LH7n
-PRODUCT_BRAND := Tecno
-PRODUCT_MODEL := Tecno LH7n
-PRODUCT_MANUFACTURER := tecno
+PRODUCT_NAME := twrp_P661n
+PRODUCT_DEVICE := P661n
+PRODUCT_BRAND := Itel
+PRODUCT_MODEL := Itel P661n
+PRODUCT_MANUFACTURER := itel
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
