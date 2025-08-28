@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),LH7n)
+ifeq ($(TARGET_DEVICE),P661N)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
