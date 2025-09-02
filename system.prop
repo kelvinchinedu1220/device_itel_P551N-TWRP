@@ -18,7 +18,7 @@ ro.vendor.mtk_mitee_support=1
 ro.vendor.mediatek.platform=MT6833
 
 # Timezone
-persist.sys.timezone="Asia/Nigeria
+persist.sys.timezone="Africa/Nigeria
 
 # Additional Properties
 ro.vendor.mtk_tee_gp_support=1
